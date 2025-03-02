@@ -1,0 +1,72 @@
+/* Bouton checkbox*/
+.selectAll{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+/* styles.css */
+.email-form {
+    max-width: 600px;
+    margin: 5% auto 0;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Votre fichier CSS existant */
+
+/* Style pour l'icône de trombone */
+.file-label {
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 10px; /* Ajoutez un espace entre l'icône et les autres éléments */
+}
+
+.file-label svg {
+    vertical-align: middle;
+    margin-right: 5px; /* Ajoutez un espace entre l'icône et le texte */
+}
+
+/* Style pour masquer visuellement le champ d'entrée de fichier */
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* Masque le champ mais le laisse accessible pour les technologies d'assistance */
+    clip-path: inset(50%);
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap; /* Assurez-vous qu'il ne prend pas de place visible */
+}

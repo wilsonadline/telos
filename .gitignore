@@ -1,0 +1,2 @@
+# Ignore les fichiers d'environnement sensibles
+.env
